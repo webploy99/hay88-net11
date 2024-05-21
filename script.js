@@ -8,9 +8,9 @@ function OpenNav(){
 
     // url
 
-    function url() {
-        location.href="https://www.hay8833.com/?inviteCode=3128320";
-    }
+    // function url() {
+    //     location.href="https://www.hay8833.com/?inviteCode=3128320";
+    // }
 
     // ==========================================
     window.onscroll = function () { scrollFunction() };
@@ -28,8 +28,6 @@ function OpenNav(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
     }
-
-
 
     // ===============maquee slider=====================
 
