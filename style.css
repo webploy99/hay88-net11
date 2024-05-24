@@ -27,7 +27,7 @@ body {
   max-width: 1080px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   nav {
     position: fixed !important;
     width: 0%;
@@ -42,25 +42,6 @@ body {
 
 }
 
-
-
-.marquee {
-  animation: scrolling var(--marquee-time) linear infinite;
-}
-
-.marquee:hover {
-  animation-play-state: paused;
-}
-
-@keyframes scrolling {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(calc(-1 * var(--marquee-width)));
-  }
-}
 
 .text-style {
   font-family: "Black Ops One", system-ui;
@@ -79,7 +60,3 @@ body {
     0 10px 10px rgba(0, 0, 0, .2),
     0 20px 20px rgba(0, 0, 0, .15);
 }
-
-/* .text-font {
-  font-size: clamp(0.5rem, 0.5rem + 0.5vw, 1.1rem);
-} */
